@@ -1,5 +1,5 @@
 # Diabetes_Detection_with_django
-![Diabetes Image]([images/diabetes_pic.jfif](https://media.istockphoto.com/id/1272421423/fi/vektori/pieni-l%C3%A4%C3%A4k%C3%A4ri-lis%C3%A4%C3%A4-n%C3%A4ytteen-verell%C3%A4-digitaaliseen-glukoosimittariin-diabeteksen-sairauden.jpg?s=1024x1024&w=is&k=20&c=XfIH81dyqZdD0YBzG6Qd9ikUVFNUZuxcIX7PDRVpkcc=))
+![Diabetes Image](images/diabetes_pic.jpg)
 ## Project Summary
 
 ## Project Description
