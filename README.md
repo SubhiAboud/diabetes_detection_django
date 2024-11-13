@@ -1,4 +1,6 @@
-# Project Summary
+# Diabetes_Detection_with_django
+![Diabetes Image](images/diabetes_pic.jfif)
+## Project Summary
 
 ## Project Description
 this project aims to create predictive model that identifies the likelihood of diabetes in individuals based on key health indicators
