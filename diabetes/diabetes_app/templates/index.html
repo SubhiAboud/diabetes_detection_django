@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="static\css\style.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> -->
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+	<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"> -->
+
+
+  <meta charset="utf-8">
+  <title>Home page</title>
+
+  <script src="https://kit.fontawesome.com/47101d2035.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    .center {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(230, 239, 245);
+    }
+  </style>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Diabetes Detection</h2>
+
+                <form action="result">
+                  {% csrf_token %}
+
+
+					<input required type="number" id="age" name="age" value="" class="field" placeholder="age">
+
+					<input required type="number" id="glc" name="glucose" value="" class="field" placeholder="Glucose">
+
+					<input required type="number" id="bloodPressure" name="bloodPressure" value="" class="field" placeholder="Blood Pressure">
+
+					<input required type="number" id="insulin" name="insulin" value="" class="field" placeholder="Insulin">
+
+					<input required type="number" step="0.1" id="bmi" name="bmi" value="" class="field" placeholder="Body Mass Index">
+
+					<input required type="number" id="skinThickness" name="skinThickness" value="" class="field" placeholder="Skin Thickness">
+
+					<input required type="number" step="0.00000001" id="diabetesPedigreeFunction" name="diabetesPedigreeFunction" value="" class="field" placeholder="Diabetes Pedigree Function">
+
+				<button class="btn"  type="submit" value="Submit"><b>Predict Diabetes</b></button>
+            </form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+
