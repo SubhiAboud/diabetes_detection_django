@@ -1,0 +1,2 @@
+Glucose,Blood Pressure,Skin Thickness,Insulin,BMI,Diabetes Pedigree Function,Age,output,flag,username,timestamp
+140,50,40,200,50,0.44,30,The model predicts that the patient has diabetes.,,,2024-11-13 10:09:48.395611
